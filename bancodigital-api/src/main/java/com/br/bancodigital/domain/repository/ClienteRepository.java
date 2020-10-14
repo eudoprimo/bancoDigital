@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.br.bancodigital.domain.model.Cliente;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente, Long> {
+public interface ClienteRepository extends JpaRepository<Cliente, Long>, ClienteRepositoryQuery {
 	
 	Optional<Cliente> findBycpf(String cpf);
 
