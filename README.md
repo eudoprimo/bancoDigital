@@ -7,6 +7,7 @@ Construção de uma api rest de banco digital
 - Utilização do lombok para redução dos getters e setters
 - Utilização do modelMaper para realizar a conversão do dto para entidade e vice-versa
 - Criação de exceptions
+- Upload de foto de documento
  
 
 
